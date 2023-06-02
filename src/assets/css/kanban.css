@@ -1,0 +1,22 @@
+
+.kanban-board{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.task-list{
+    padding: 10px;
+    border: thin solid;
+}
+
+.task {
+    cursor: grab;
+  }
+  
+  .task:active {
+    cursor: grabbing;
+  }
+  .task.is-dragging {
+    cursor: grab;
+  }
